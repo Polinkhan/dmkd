@@ -50,11 +50,11 @@ median.addEventListener("click", () => {
   } else {
     output.innerHTML =
       "Median => ( " +
-      parseInt(data[mid]) +
+      data[mid] +
       "+" +
-      parseInt(data[mid + 1]) +
+      data[mid + 1] +
       " ) / 2 => " +
-      (parseInt(data[mid]) + parseInt(data[mid + 1])) / 2;
+      ((data[mid]) + (data[mid + 1])) / 2;
   }
 });
 
